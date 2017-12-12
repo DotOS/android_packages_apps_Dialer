@@ -91,6 +91,7 @@
             android:launchMode="singleTask"
             android:clearTaskOnLaunch="true"
             android:icon="@mipmap/ic_launcher_phone"
+			android:roundIcon="@mipmap/ic_launcher_phone_round"
             android:windowSoftInputMode="stateAlwaysHidden|adjustNothing"
             android:resizeableActivity="true"
             android:directBootAware="true">
