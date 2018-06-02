@@ -17,6 +17,8 @@
 <resources>
 
   <style name="DialerThemeBase" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+    <item name="android:navigationBarColor">@android:color/white</item>
+    <item name="android:windowLightNavigationBar">true</item>
     <item name="android:textColorPrimary">@color/dialer_primary_text_color</item>
     <item name="android:textColorSecondary">@color/dialer_secondary_text_color</item>
     <!-- This is used for title bar color in recents -->
@@ -36,6 +38,8 @@
 
   <!-- Should be kept in sync with the theme above (minus anything related to actionbars -->
   <style name="DialerThemeBase.NoActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <item name="android:navigationBarColor">@android:color/white</item>
+    <item name="android:windowLightNavigationBar">true</item>
     <item name="android:textColorPrimary">@color/dialer_primary_text_color</item>
     <item name="android:textColorSecondary">@color/dialer_secondary_text_color</item>
     <!-- This is used for title bar color in recents -->
